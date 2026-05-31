@@ -1,11 +1,7 @@
-import React from "react";
+import AppRoutes from "./routes/AppRouter";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to the Frontend!</h1>
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;

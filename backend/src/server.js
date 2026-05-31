@@ -1,10 +1,14 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from "dotenv";
+import connectDB from './config/db.js'
+import postRoutes from "./routes/postRoutes.js";
 dotenv.config();
 
 const app = express();
 app.use(cors());
+app.use(express.json());
+
 console.log("PORT =", process.env.PORT);
 
 app.get('/',(req, res) => {
@@ -12,6 +16,8 @@ app.get('/',(req, res) => {
   console.log("hellow from server");
 })
 
+connectDB();
+app.use("/api/posts", postRoutes);
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   

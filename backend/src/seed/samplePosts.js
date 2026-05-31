@@ -1,0 +1,123 @@
+const samplePosts = [
+  {
+    title: "Getting Started with React Hooks",
+    author: "Sarah Johnson",
+    email: "sarah@example.com",
+    category: "Technology",
+    tags: ["React", "Frontend", "Hooks"],
+    status: "Published",
+    thumbnail: "https://picsum.photos/400/200?1",
+    description: "Learn the basics of React Hooks.",
+    content: "React Hooks allow functional components to manage state and lifecycle methods.",
+  },
+
+  {
+    title: "Modern UI Design Principles",
+    author: "Michael Chen",
+    email: "michael@example.com",
+    category: "Design",
+    tags: ["UI", "UX", "Design"],
+    status: "Published",
+    thumbnail: "https://picsum.photos/400/200?2",
+    description: "Key principles of modern UI design.",
+    content: "Good UI design focuses on simplicity, consistency, and accessibility.",
+  },
+
+  {
+    title: "Building Scalable Applications",
+    author: "Emily Davis",
+    email: "emily@example.com",
+    category: "Technology",
+    tags: ["Node.js", "Architecture"],
+    status: "Draft",
+    thumbnail: "https://picsum.photos/400/200?3",
+    description: "How to scale applications effectively.",
+    content: "Scalability involves designing systems that handle increased load efficiently.",
+  },
+
+  {
+    title: "The Future of Remote Work",
+    author: "James Wilson",
+    email: "james@example.com",
+    category: "Business",
+    tags: ["Remote Work", "Productivity"],
+    status: "Published",
+    thumbnail: "https://picsum.photos/400/200?4",
+    description: "Remote work trends and challenges.",
+    content: "Remote work continues to shape modern organizations worldwide.",
+  },
+
+  {
+    title: "Minimalist Living Guide",
+    author: "Sarah Johnson",
+    email: "sarah@example.com",
+    category: "Lifestyle",
+    tags: ["Lifestyle", "Minimalism"],
+    status: "Draft",
+    thumbnail: "https://picsum.photos/400/200?5",
+    description: "How to live a minimalist lifestyle.",
+    content: "Minimalism encourages focusing on what truly matters.",
+  },
+
+  {
+    title: "Mastering JavaScript ES6",
+    author: "David Lee",
+    email: "david@example.com",
+    category: "Programming",
+    tags: ["JavaScript", "ES6"],
+    status: "Published",
+    thumbnail: "https://picsum.photos/400/200?6",
+    description: "Explore powerful ES6 features.",
+    content: "ES6 introduced arrow functions, promises, destructuring, and much more.",
+  },
+
+  {
+    title: "Top 10 Travel Destinations for 2026",
+    author: "Sophia Brown",
+    email: "sophia@example.com",
+    category: "Travel",
+    tags: ["Travel", "Adventure"],
+    status: "Published",
+    thumbnail: "https://picsum.photos/400/200?7",
+    description: "Best places to visit this year.",
+    content: "Travelers are exploring unique and less crowded destinations.",
+  },
+
+  {
+    title: "Healthy Eating Habits",
+    author: "Olivia Martinez",
+    email: "olivia@example.com",
+    category: "Health",
+    tags: ["Health", "Nutrition"],
+    status: "Published",
+    thumbnail: "https://picsum.photos/400/200?8",
+    description: "Simple habits for better nutrition.",
+    content: "Balanced diets and mindful eating improve overall health.",
+  },
+
+  {
+    title: "Introduction to Cloud Computing",
+    author: "Daniel White",
+    email: "daniel@example.com",
+    category: "Technology",
+    tags: ["Cloud", "AWS", "Azure"],
+    status: "Draft",
+    thumbnail: "https://picsum.photos/400/200?9",
+    description: "Cloud computing basics explained.",
+    content: "Cloud computing provides scalable resources over the internet.",
+  },
+
+  {
+    title: "Personal Finance for Beginners",
+    author: "Emma Taylor",
+    email: "emma@example.com",
+    category: "Finance",
+    tags: ["Finance", "Money Management"],
+    status: "Published",
+    thumbnail: "https://picsum.photos/400/200?10",
+    description: "Start managing your money wisely.",
+    content: "Budgeting, saving, and investing are key financial skills.",
+  },
+];
+
+export default samplePosts;
