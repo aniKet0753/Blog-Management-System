@@ -314,29 +314,3 @@ Add the following IP to Atlas Network Access:
 ```
 
 This allows Render services to connect to MongoDB Atlas.
-
----
-
-# 🎯 Future Improvements
-
-* User Authentication
-* JWT Authorization
-* Rich Text Editor
-* Image Upload Support
-* Dark Mode
-* Comments System
-* Categories Management
-* User Dashboard
-* Analytics
-
----
-
-# 👨‍💻 Author
-
-**Ankit Kumar**
-
-* MERN Stack Developer
-* React.js Developer
-* Node.js & Express.js Enthusiast
-
----
